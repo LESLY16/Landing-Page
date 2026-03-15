@@ -138,9 +138,6 @@ function App() {
             <button className="btn btn-primary submit-btn" type="submit">
               Join the List
             </button>
-            <p className="form-note">
-              Replace <code>your-form-id</code> with your Formspree form id.
-            </p>
           </form>
         </section>
       </main>

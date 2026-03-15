@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121417"/>
+      <stop offset="1" stop-color="#2A2F36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="180" fill="#F4A340" fill-opacity="0.15"/>
+  <rect x="92" y="118" width="130" height="130" rx="28" fill="#121417" stroke="#F4A340" stroke-width="8"/>
+  <path d="M118 226L145 140H165L138 226H118Z" fill="#F4A340"/>
+  <path d="M154 226L181 140H209L182 226H154Z" fill="#FFD7A2"/>
+  <circle cx="197" cy="153" r="10" fill="#F4A340"/>
+  <text x="248" y="178" fill="#FFF8EF" font-family="Arial, sans-serif" font-size="54" font-weight="700">Pinnacle Dev Studio</text>
+  <text x="94" y="320" fill="#FFD7A2" font-family="Arial, sans-serif" font-size="56" font-weight="700">Deliver Digital Content Today.</text>
+  <text x="94" y="390" fill="#FFF8EF" font-family="Arial, sans-serif" font-size="56" font-weight="700">Expand Into Commerce Tomorrow.</text>
+  <text x="94" y="472" fill="#DAD4CB" font-family="Arial, sans-serif" font-size="30">Built by Lesly Max Dsouza</text>
+</svg>

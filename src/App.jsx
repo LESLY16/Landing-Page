@@ -103,7 +103,7 @@ function App() {
 
           <form
             className="lead-form"
-            action="https://formspree.io/f/your-form-id"
+            action="https://formspree.io/f/xbdzaoqk"
             method="POST"
           >
             <input type="hidden" name="_subject" value="New Landing Page Lead" />

@@ -9,25 +9,33 @@ function App() {
             <img className="brand-mark" src="/pinnacle-logo.svg" alt="Pinnacle Dev Studio logo" />
             Pinnacle Dev Studio
           </p>
-          <a className="nav-link" href="#contact">
-            Start a Project
-          </a>
+          <div className="nav-actions">
+            <a className="nav-link" href="#products">
+              Products
+            </a>
+            <a className="nav-link" href="#about">
+              About
+            </a>
+            <a className="nav-link nav-link-cta" href="#contact">
+              Start a Project
+            </a>
+          </div>
         </nav>
 
         <div className="hero-content">
           <p className="eyebrow">Built by Lesly Max Dsouza</p>
-          <h1>Deliver Digital Content Today. Expand Into Commerce Tomorrow.</h1>
+          <h1>Venture Studio & Technology Lab for Product-First Builders</h1>
           <p className="lead">
-            Pinnacle Dev Studio helps creators and businesses publish digital products
-            with speed, trust, and scale. We are building the bridge from content
-            delivery to a future-ready marketplace for buying and selling goods.
+            Pinnacle Dev Studio is a venture studio and technology lab. We partner with
+            visionaries and non-technical founders to incubate, engineer, and launch
+            scalable digital products.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#services">
-              Explore Services
+              What We Do
             </a>
-            <a className="btn btn-secondary" href="#roadmap">
-              View Roadmap
+            <a className="btn btn-secondary" href="#products">
+              View Products
             </a>
           </div>
         </div>
@@ -35,28 +43,79 @@ function App() {
 
       <main>
         <section id="services" className="section">
-          <h2>What We Deliver</h2>
+          <h2>Our Mission</h2>
+          <p className="section-lead">
+            Pinnacle Dev Studio is a venture studio and technology lab. We partner with
+            visionaries and non-technical founders to incubate, engineer, and launch
+            scalable digital products. We don't just write code; we take raw ideas and
+            provide the complete technical infrastructure, end-to-end development, and
+            cloud deployment required to bring innovative software to market. If you
+            have the vision, we provide the technical backbone to build and publish
+            your product.
+          </p>
+
+          <h2 className="section-title">What We Deliver</h2>
           <div className="grid">
             <article className="card">
-              <h3>Digital Content Distribution</h3>
+              <h3>Product Incubation & MVP Engineering</h3>
               <p>
-                Fast, secure delivery of ebooks, courses, design assets, and premium
-                downloads with flexible access controls.
+                Rapid prototyping, validation, and full-stack MVP builds designed to
+                get your product into users' hands fast.
               </p>
             </article>
             <article className="card">
-              <h3>Conversion-Focused Web Presence</h3>
+              <h3>End-to-End Development</h3>
               <p>
-                Landing pages and storefront-ready experiences designed to convert
-                visitors into loyal paying customers.
+                From UI to backend to integrations—production-grade engineering that
+                supports growth, reliability, and maintainability.
               </p>
             </article>
             <article className="card">
-              <h3>Business Automation</h3>
+              <h3>Cloud Deployment & Technical Infrastructure</h3>
               <p>
-                Integrated workflows for onboarding, delivery notifications, customer
-                support, and payment lifecycle visibility.
+                Secure hosting, CI/CD, observability, and scalable architecture so your
+                launch is stable from day one.
               </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="products" className="section">
+          <h2>Products Incubated by Pinnacle</h2>
+          <p className="section-lead">
+            A small sample of what we've built (and what we're currently building). If
+            you have a vision, we'll help you engineer and ship it.
+          </p>
+
+          <div className="portfolio-grid">
+            <article className="portfolio-card">
+              <div className="portfolio-media" aria-hidden="true">
+                <p className="portfolio-placeholder">Screenshot coming soon</p>
+              </div>
+              <div className="portfolio-body">
+                <h3>Digital Content Delivery Platform</h3>
+                <p>
+                  A secure, creator-friendly experience for selling and delivering
+                  downloads, courses, and premium content.
+                </p>
+                <a className="portfolio-link" href="#contact">
+                  Request a demo
+                </a>
+              </div>
+            </article>
+
+            <article className="portfolio-card">
+              <div className="portfolio-media" aria-hidden="true">
+                <p className="portfolio-placeholder">Screenshot coming soon</p>
+              </div>
+              <div className="portfolio-body">
+                <h3>Future-Ready Marketplace Roadmap</h3>
+                <p>
+                  The infrastructure plan that evolves digital delivery into a
+                  buyer–seller marketplace for physical and digital goods.
+                </p>
+                <a className="portfolio-link" href="#roadmap">View the roadmap</a>
+              </div>
             </article>
           </div>
         </section>
@@ -88,6 +147,43 @@ function App() {
                 customer reach from one scalable platform.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section id="about" className="section about">
+          <h2>Who We Are</h2>
+          <p className="section-lead">
+            Pinnacle Dev Studio is led by [Your Real Name], a dedicated technical
+            founder and software engineer. Built on the belief that great ideas
+            shouldn't be blocked by technical barriers, the studio partners directly
+            with clients to incubate and engineer their concepts into reality. By
+            handling the complete technical infrastructure, end-to-end development,
+            and cloud deployment, [Your Real Name] acts as a dedicated technical
+            partner to bring innovative software to market.
+          </p>
+
+          <div className="founder-grid">
+            <article className="founder-card">
+              <div className="founder-avatar" aria-hidden="true"></div>
+              <div>
+                <h3 className="founder-name">[Name]</h3>
+                <p className="founder-role">Technical Director / Founder</p>
+                <a className="founder-link" href="[Link to LinkedIn]" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </a>
+              </div>
+            </article>
+
+            <article className="founder-card">
+              <div className="founder-avatar" aria-hidden="true"></div>
+              <div>
+                <h3 className="founder-name">[Name]</h3>
+                <p className="founder-role">Head of Product / Co-Founder</p>
+                <a className="founder-link" href="[Link to LinkedIn]" target="_blank" rel="noreferrer">
+                  LinkedIn
+                </a>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -131,7 +227,7 @@ function App() {
               id="message"
               name="message"
               rows="4"
-              placeholder="Tell us about your digital content or marketplace idea"
+              placeholder="Tell us about your product idea"
               required
             ></textarea>
 

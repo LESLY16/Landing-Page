@@ -168,7 +168,7 @@ function App() {
               <div>
                 <h3 className="founder-name">[Name]</h3>
                 <p className="founder-role">Technical Director / Founder</p>
-                <a className="founder-link" href="[Link to LinkedIn]" target="_blank" rel="noreferrer">
+                <a className="founder-link" href="www.linkedin.com/in/lesly96" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
               </div>
@@ -177,7 +177,7 @@ function App() {
             <article className="founder-card">
               <div className="founder-avatar" aria-hidden="true"></div>
               <div>
-                <h3 className="founder-name">[Name]</h3>
+                <h3 className="founder-name">Lesly</h3>
                 <p className="founder-role">Head of Product / Co-Founder</p>
                 <a className="founder-link" href="www.linkedin.com/in/lesly96" target="_blank" rel="noreferrer">
                   LinkedIn
@@ -204,7 +204,7 @@ function App() {
           >
             <input type="hidden" name="_subject" value="New Landing Page Lead" />
 
-            <label htmlFor="fullName">Full Name</label>
+            <label htmlFor="fullName">Lesly Max Dsouza</label>
             <input
               id="fullName"
               name="fullName"

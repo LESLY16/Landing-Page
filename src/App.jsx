@@ -153,12 +153,12 @@ function App() {
         <section id="about" className="section about">
           <h2>Who We Are</h2>
           <p className="section-lead">
-            Pinnacle Dev Studio is led by [Your Real Name], a dedicated technical
+            Pinnacle Dev Studio is led by Lesly Max Dsouza, a dedicated technical
             founder and software engineer. Built on the belief that great ideas
             shouldn't be blocked by technical barriers, the studio partners directly
             with clients to incubate and engineer their concepts into reality. By
             handling the complete technical infrastructure, end-to-end development,
-            and cloud deployment, [Your Real Name] acts as a dedicated technical
+            and cloud deployment, Lesly Max Dsouza acts as a dedicated technical
             partner to bring innovative software to market.
           </p>
 
@@ -179,7 +179,7 @@ function App() {
               <div>
                 <h3 className="founder-name">[Name]</h3>
                 <p className="founder-role">Head of Product / Co-Founder</p>
-                <a className="founder-link" href="[Link to LinkedIn]" target="_blank" rel="noreferrer">
+                <a className="founder-link" href="www.linkedin.com/in/lesly96" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
               </div>
